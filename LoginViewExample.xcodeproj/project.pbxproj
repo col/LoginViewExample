@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF8650D714FC275E00083D51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8650D614FC275E00083D51 /* UIKit.framework */; };
+		EF8650D914FC275E00083D51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8650D814FC275E00083D51 /* Foundation.framework */; };
+		EF8650DB14FC275E00083D51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8650DA14FC275E00083D51 /* CoreGraphics.framework */; };
+		EF8650E114FC275E00083D51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF8650DF14FC275E00083D51 /* InfoPlist.strings */; };
+		EF8650E314FC275E00083D51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8650E214FC275E00083D51 /* main.m */; };
+		EF8650E714FC275E00083D51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8650E614FC275E00083D51 /* AppDelegate.m */; };
+		EF8650F014FC27A100083D51 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8650EE14FC27A100083D51 /* LoginViewController.m */; };
+		EF8650F114FC27A100083D51 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF8650EF14FC27A100083D51 /* LoginViewController.xib */; };
+		EF8650F614FC27B500083D51 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF8650F314FC27B500083D51 /* SVProgressHUD.bundle */; };
+		EF8650F714FC27B500083D51 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8650F514FC27B500083D51 /* SVProgressHUD.m */; };
+		EF8650FE14FC2BA500083D51 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8650F914FC2BA500083D51 /* background.png */; };
+		EF8650FF14FC2BA500083D51 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8650FA14FC2BA500083D51 /* background@2x.png */; };
+		EF86510014FC2BA500083D51 /* cell_background.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8650FB14FC2BA500083D51 /* cell_background.png */; };
+		EF86510114FC2BA500083D51 /* cell_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8650FC14FC2BA500083D51 /* cell_background@2x.png */; };
+		EF86510214FC2BA500083D51 /* Logo_280x60.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8650FD14FC2BA500083D51 /* Logo_280x60.png */; };
+		EF86510414FC2C0200083D51 /* Logo_280x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF86510314FC2C0200083D51 /* Logo_280x60@2x.png */; };
+		EF86510814FC2CD900083D51 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF86510614FC2CD900083D51 /* MainViewController.m */; };
+		EF86510914FC2CD900083D51 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF86510714FC2CD900083D51 /* MainViewController.xib */; };
+		EF86510D14FC2E4300083D51 /* GradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EF86510C14FC2E4300083D51 /* GradientButton.m */; };
+		EF86510F14FC2EBD00083D51 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF86510E14FC2EBD00083D51 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF8650D214FC275E00083D51 /* LoginViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8650D614FC275E00083D51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF8650D814FC275E00083D51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF8650DA14FC275E00083D51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF8650DE14FC275E00083D51 /* LoginViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginViewExample-Info.plist"; sourceTree = "<group>"; };
+		EF8650E014FC275E00083D51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF8650E214FC275E00083D51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF8650E414FC275E00083D51 /* LoginViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		EF8650E514FC275E00083D51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF8650E614FC275E00083D51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF8650ED14FC27A100083D51 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EF8650EE14FC27A100083D51 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		EF8650EF14FC27A100083D51 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		EF8650F314FC27B500083D51 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		EF8650F414FC27B500083D51 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		EF8650F514FC27B500083D51 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		EF8650F914FC2BA500083D51 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Resources/background.png; sourceTree = "<group>"; };
+		EF8650FA14FC2BA500083D51 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "Resources/background@2x.png"; sourceTree = "<group>"; };
+		EF8650FB14FC2BA500083D51 /* cell_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_background.png; path = Resources/cell_background.png; sourceTree = "<group>"; };
+		EF8650FC14FC2BA500083D51 /* cell_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cell_background@2x.png"; path = "Resources/cell_background@2x.png"; sourceTree = "<group>"; };
+		EF8650FD14FC2BA500083D51 /* Logo_280x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo_280x60.png; path = Resources/Logo_280x60.png; sourceTree = "<group>"; };
+		EF86510314FC2C0200083D51 /* Logo_280x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo_280x60@2x.png"; path = "Resources/Logo_280x60@2x.png"; sourceTree = "<group>"; };
+		EF86510514FC2CD900083D51 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EF86510614FC2CD900083D51 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EF86510714FC2CD900083D51 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		EF86510B14FC2E4300083D51 /* GradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GradientButton.h; path = GradientButton/GradientButton.h; sourceTree = "<group>"; };
+		EF86510C14FC2E4300083D51 /* GradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GradientButton.m; path = GradientButton/GradientButton.m; sourceTree = "<group>"; };
+		EF86510E14FC2EBD00083D51 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8650CF14FC275E00083D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF86510F14FC2EBD00083D51 /* QuartzCore.framework in Frameworks */,
+				EF8650DB14FC275E00083D51 /* CoreGraphics.framework in Frameworks */,
+				EF8650D714FC275E00083D51 /* UIKit.framework in Frameworks */,
+				EF8650D914FC275E00083D51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF8650C714FC275E00083D51 = {
+			isa = PBXGroup;
+			children = (
+				EF8650DC14FC275E00083D51 /* LoginViewExample */,
+				EF8650D514FC275E00083D51 /* Frameworks */,
+				EF8650D314FC275E00083D51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8650D314FC275E00083D51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8650D214FC275E00083D51 /* LoginViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8650D514FC275E00083D51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF86510E14FC2EBD00083D51 /* QuartzCore.framework */,
+				EF8650D614FC275E00083D51 /* UIKit.framework */,
+				EF8650D814FC275E00083D51 /* Foundation.framework */,
+				EF8650DA14FC275E00083D51 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF8650DC14FC275E00083D51 /* LoginViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				EF86510A14FC2E1900083D51 /* GradientButton */,
+				EF8650F814FC2B7B00083D51 /* Resources */,
+				EF8650F214FC27B500083D51 /* SVProgressHUD */,
+				EF8650E514FC275E00083D51 /* AppDelegate.h */,
+				EF8650E614FC275E00083D51 /* AppDelegate.m */,
+				EF8650ED14FC27A100083D51 /* LoginViewController.h */,
+				EF8650EE14FC27A100083D51 /* LoginViewController.m */,
+				EF8650EF14FC27A100083D51 /* LoginViewController.xib */,
+				EF86510514FC2CD900083D51 /* MainViewController.h */,
+				EF86510614FC2CD900083D51 /* MainViewController.m */,
+				EF86510714FC2CD900083D51 /* MainViewController.xib */,
+				EF8650DD14FC275E00083D51 /* Supporting Files */,
+			);
+			path = LoginViewExample;
+			sourceTree = "<group>";
+		};
+		EF8650DD14FC275E00083D51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF8650DE14FC275E00083D51 /* LoginViewExample-Info.plist */,
+				EF8650DF14FC275E00083D51 /* InfoPlist.strings */,
+				EF8650E214FC275E00083D51 /* main.m */,
+				EF8650E414FC275E00083D51 /* LoginViewExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF8650F214FC27B500083D51 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EF8650F314FC27B500083D51 /* SVProgressHUD.bundle */,
+				EF8650F414FC27B500083D51 /* SVProgressHUD.h */,
+				EF8650F514FC27B500083D51 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		EF8650F814FC2B7B00083D51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF8650F914FC2BA500083D51 /* background.png */,
+				EF8650FA14FC2BA500083D51 /* background@2x.png */,
+				EF8650FB14FC2BA500083D51 /* cell_background.png */,
+				EF8650FC14FC2BA500083D51 /* cell_background@2x.png */,
+				EF8650FD14FC2BA500083D51 /* Logo_280x60.png */,
+				EF86510314FC2C0200083D51 /* Logo_280x60@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EF86510A14FC2E1900083D51 /* GradientButton */ = {
+			isa = PBXGroup;
+			children = (
+				EF86510B14FC2E4300083D51 /* GradientButton.h */,
+				EF86510C14FC2E4300083D51 /* GradientButton.m */,
+			);
+			name = GradientButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8650D114FC275E00083D51 /* LoginViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8650EA14FC275E00083D51 /* Build configuration list for PBXNativeTarget "LoginViewExample" */;
+			buildPhases = (
+				EF8650CE14FC275E00083D51 /* Sources */,
+				EF8650CF14FC275E00083D51 /* Frameworks */,
+				EF8650D014FC275E00083D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginViewExample;
+			productName = LoginViewExample;
+			productReference = EF8650D214FC275E00083D51 /* LoginViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8650C914FC275E00083D51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Hannan IT";
+			};
+			buildConfigurationList = EF8650CC14FC275E00083D51 /* Build configuration list for PBXProject "LoginViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF8650C714FC275E00083D51;
+			productRefGroup = EF8650D314FC275E00083D51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8650D114FC275E00083D51 /* LoginViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8650D014FC275E00083D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8650E114FC275E00083D51 /* InfoPlist.strings in Resources */,
+				EF8650F114FC27A100083D51 /* LoginViewController.xib in Resources */,
+				EF8650F614FC27B500083D51 /* SVProgressHUD.bundle in Resources */,
+				EF8650FE14FC2BA500083D51 /* background.png in Resources */,
+				EF8650FF14FC2BA500083D51 /* background@2x.png in Resources */,
+				EF86510014FC2BA500083D51 /* cell_background.png in Resources */,
+				EF86510114FC2BA500083D51 /* cell_background@2x.png in Resources */,
+				EF86510214FC2BA500083D51 /* Logo_280x60.png in Resources */,
+				EF86510414FC2C0200083D51 /* Logo_280x60@2x.png in Resources */,
+				EF86510914FC2CD900083D51 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8650CE14FC275E00083D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8650E314FC275E00083D51 /* main.m in Sources */,
+				EF8650E714FC275E00083D51 /* AppDelegate.m in Sources */,
+				EF8650F014FC27A100083D51 /* LoginViewController.m in Sources */,
+				EF8650F714FC27B500083D51 /* SVProgressHUD.m in Sources */,
+				EF86510814FC2CD900083D51 /* MainViewController.m in Sources */,
+				EF86510D14FC2E4300083D51 /* GradientButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF8650DF14FC275E00083D51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8650E014FC275E00083D51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF8650E814FC275E00083D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF8650E914FC275E00083D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8650EB14FC275E00083D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoginViewExample/LoginViewExample-Prefix.pch";
+				INFOPLIST_FILE = "LoginViewExample/LoginViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF8650EC14FC275E00083D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoginViewExample/LoginViewExample-Prefix.pch";
+				INFOPLIST_FILE = "LoginViewExample/LoginViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8650CC14FC275E00083D51 /* Build configuration list for PBXProject "LoginViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8650E814FC275E00083D51 /* Debug */,
+				EF8650E914FC275E00083D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8650EA14FC275E00083D51 /* Build configuration list for PBXNativeTarget "LoginViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8650EB14FC275E00083D51 /* Debug */,
+				EF8650EC14FC275E00083D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF8650C914FC275E00083D51 /* Project object */;
+}
